@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals - Reading Collections</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158625144-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158625144-1');
+</script>
+        <!-- --> 
+    </head>
+
+    <body>
+
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="../../..">Reading Collections</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-item">
+          SLAM
+      </a>
+      <ul class="dropdown-menu">
+              
+    <li>
+        <a href="./" class="dropdown-item active">
+            VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals
+        </a>
+    </li>
+          
+      </ul>
+    </li>
+                                    
+                                </ul>
+                            </li>
+                            <!-- <li class="navitem">
+                                <a href="../../.." class="nav-link">Stay Foolish, Stay Hungry.</a>
+                            </li> -->
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Motion Planning <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+    <li>
+        <a href="../../../Motion%20Planning/Differentiable%20Algorithm%20Networks%20forComposable%20Robot%20Learning/" class="dropdown-item">
+            DAN for Composable Robot Learning
+        </a>
+    </li>
+                                    
+    <li>
+        <a href="../../../Motion%20Planning/Differentiable%20MPC%20for%20End-to-end%20Planning%20and%20Control/" class="dropdown-item">
+            Differentiable MPC
+        </a>
+    </li>
+                                    
+    <li>
+        <a href="../../../Motion%20Planning/EUDM/" class="dropdown-item">
+            EUDM Planning
+        </a>
+    </li>
+                                    
+    <li>
+        <a href="../../../Motion%20Planning/PMPNet/" class="dropdown-item">
+            PMPNet
+        </a>
+    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../undone/Visual-based%20Autonomous%20Driving%20Deployment%20from%20a%20Stochastic%20andUncertainty-aware%20Perspective/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            
+                <div   class=row >
+                            <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        
+        <ul class="nav flex-column bs-sidenav">
+        
+        <a href=https://openaccess.thecvf.com/content_CVPR_2020/papers/Min_VOLDOR_Visual_Odometry_From_Log-Logistic_Dense_Optical_Flow_Residuals_CVPR_2020_paper.pdf>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o"> pdf</i>
+        </a>
+        
+
+        
+        <a href=https://github.com/htkseason/VOLDOR>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-github"> code</i>
+        </a>
+
+        
+            <li class="nav-item main"><a href="#voldor-visual-odometry-from-log-logistic-dense-optical-flow-residuals">VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals</a></li>
+                <li class="nav-item">
+                    <a href="#_1" class="nav-link">方法</a>
+                </li>
+            <li class="nav-item main"><a href="#voldorslam-for-the-times-when-feature-based-or-direct-methods-are-not-good-enough">VOLDOR+SLAM: For the times when feature-based or direct methods are not good enough</a></li>
+        </ul>
+    </div>
+</div></div>
+                            <div class="col-md-9" role="main"><span>
+    
+<a href=https://openaccess.thecvf.com/content_CVPR_2020/papers/Min_VOLDOR_Visual_Odometry_From_Log-Logistic_Dense_Optical_Flow_Residuals_CVPR_2020_paper.pdf>
+    <i class="fa fa-file-pdf-o"> pdf</i>
+</a>
+
+
+
+<a href=https://github.com/htkseason/VOLDOR>
+    <i class="fa fa-github"> code</i>
+</a>
+
+</span>
+<h1 id="voldor-visual-odometry-from-log-logistic-dense-optical-flow-residuals">VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals</h1>
+<p>这篇paper讨论的是视觉SLAM问题的解决，重点区别点:</p>
+<ul>
+<li>稠密光流替代稀疏特征点匹配</li>
+<li>把rigidness map作为概率推理的一部分，用于区分出运动中的物体像素</li>
+<li>提出了新的概率分布拟合以及推理方法.</li>
+<li>整个框架高度并行化，适合在GPU上直接完成SLAM任务</li>
+</ul>
+<p><img alt="image" src="res/VOLDOR_probabilistic_model.png" /></p>
+<h2 id="_1">方法</h2>
+<p><img alt="image" src="res/VOLDOR_probabilistic_model.png" /></p>
+<h3 id="notations">Notations</h3>
+<ul>
+<li>
+<script type="math/tex">\mathcal{I}</script>: 图片</li>
+<li>
+<script type="math/tex">\mathcal{X}</script>: 观测到的光流场</li>
+<li>
+<script type="math/tex">\mathcal{T}</script>: 相机姿态.</li>
+<li>
+<script type="math/tex">\mathcal{\theta}</script>: 深度图</li>
+<li>
+<script type="math/tex">\mathcal{W}</script>: Rigidness 概率图，若<script type="math/tex">W(i,j)==0</script>说明是动态物体像素.</li>
+<li>
+<script type="math/tex">\boldsymbol{\pi}</script>: 投影点的坐标，已知深度，相机姿态以及相机内参，可以得到静态点的投影关系 <script type="math/tex">\boldsymbol{\pi}_{\boldsymbol{t}}\left(\theta^{j}\right)=\boldsymbol{K}\left(\prod_{i=0}^{t} \boldsymbol{T}_{\boldsymbol{i}}\right) \theta^{j} \boldsymbol{K}^{-1}\left[x_{j} y_{j} 1\right]^{T}</script>
+</li>
+<li>
+<script type="math/tex">\boldsymbol{\xi}</script>: 由运动产生的光流
+<script type="math/tex">\boldsymbol{\xi}_{\boldsymbol{t}}\left(\theta^{j}\right)=\boldsymbol{\pi}_{\boldsymbol{t}}\left(\theta^{j}\right)-\boldsymbol{\pi}_{\boldsymbol{t - 1}}\left(\theta^{j}\right)</script>
+</li>
+</ul>
+<p>对图片观测到的光流场，我们可以表达其概率分布, 其中分为两部分。
+- 对于静态像素，其概率与运动/深度得到的光流之间的残差有关
+- 对于动态像素，本文假设其为一个均匀分布.</p>
+<p>
+<script type="math/tex; mode=display">
+\begin{aligned}
+P\left(\boldsymbol{X}_{t}^{\boldsymbol{\pi}_{t-1}\left(\theta^{j}\right)}\right.&\left.\mid \theta^{j}, \boldsymbol{T}_{\boldsymbol{t}}, W_{t}^{j} ; \boldsymbol{T}_{\mathbf{1}} \cdots \boldsymbol{T}_{\boldsymbol{t - 1}}\right) \\
+&=\left\{\begin{array}{ll}
+\rho\left(\boldsymbol{\xi}_{\boldsymbol{t}}\left(\theta^{j}\right) \| \boldsymbol{X}_{t}^{\boldsymbol{\pi}_{t-1}\left(\theta^{j}\right)}\right) & \text { if } W_{t}^{j}=1 \\
+\mu\left(\boldsymbol{X}_{t}^{\boldsymbol{\pi}_{t-1}\left(\theta^{j}\right)}\right) & \text { if } W_{t}^{j}=0
+\end{array}\right.
+\end{aligned}
+</script>
+</p>
+<p>VO问题就被建模成最大化以上likelihood的求解问题.
+<script type="math/tex; mode=display">
+\begin{array}{c}
+\underset{\boldsymbol{\theta}, \mathbb{T}, \mathrm{W}}{\operatorname{argmax}} P(\mathbb{X} \mid \boldsymbol{\theta}, \mathbb{T}, \mathbb{W}) \\
+=\underset{\boldsymbol{\theta}, \mathrm{T}, \mathrm{W}}{\operatorname{argmax}} \prod_{t} \prod_{j} P\left(\boldsymbol{X}_{t}^{\boldsymbol{\pi}_{t-1}\left(\theta^{j}\right)} \mid \theta^{j}, \boldsymbol{T}_{t}, W_{t}^{j}\right)
+\end{array}
+</script>
+</p>
+<h3 id="fisk-residual-model">Fisk Residual Model</h3>
+<p>用什么概率模型对残差进行建模是本文中一个很重要的选择项.本文做了以下的观察</p>
+<ul>
+<li>hierarchical的光流方法，光流估计的误差会与光流本身的值成正比(光流像素值越大, 绝对误差值就越大).</li>
+<li>作者尝试对现有的多个光流模型的误差特性进行概率拟合，发现是<a href="https://www.wikiwand.com/en/Log-logistic_distribution">fisk distribution</a>是最好的.</li>
+</ul>
+<h4 id="fisk-distribution">Fisk distribution:</h4>
+<p>也称为Log-logistic distribution, 指的是一个随机变量的对数值服从<a href="https://www.wikiwand.com/en/Logistic_distribution">logistic distribution</a>. logistic distribution在默认的参数下的累积函数就是我们常用的sigmoid.</p>
+<p>而 fisk的概率密度函数为:</p>
+<p>
+<script type="math/tex; mode=display">
+f(x ; \alpha, \beta)=\frac{(\beta / \alpha)(x / \alpha)^{\beta-1}}{\left(1+(x / \alpha)^{\beta}\right)^{2}}
+</script>
+</p>
+<h3 id="_2">推理方法</h3>
+<h4 id="rigidness">深度与rigidness的更新</h4>
+<p>
+<script type="math/tex; mode=display">
+\theta_{\mathrm{MIE}}^{j}=\operatorname{argmax}_{\theta^{j *}} \sum_{t} q\left(W_{t}^{j}=1\right) \log \frac{P\left(\boldsymbol{X}_{t}^{\pi_{t-1}\left(\theta^{j}\right)} \mid \theta^{j}=\theta^{j *}, W_{t}^{j}=1\right)}{\sum_{W_{t}^{j}} P\left(\boldsymbol{X}_{t}^{\left.\pi_{t-1}^{(\theta j}\right)} \mid \theta^{\left.j=\theta^{j *}, W_{t}^{j}\right)}\right.}
+</script>
+</p>
+<p><img alt="image" src="res/voldor_algo.png" /></p>
+<p>算法上首先将<script type="math/tex">W</script>初始化为1, <script type="math/tex">T</script>与<script type="math/tex">\theta</script>由稠密光流最小二乘法得到初始解. 然后循环地优化相机姿态、深度以及刚度图.</p>
+<h1 id="voldorslam-for-the-times-when-feature-based-or-direct-methods-are-not-good-enough">VOLDOR+SLAM: For the times when feature-based or direct methods are not good enough</h1>
+<p><a href="https://arxiv.org/pdf/2104.06800.pdf">pdf</a></p>
+<p>这篇paper将前面的VOLDOR扩展为了一个完整的SLAM系统, </p>
+<p><img alt="image" src="res/VOLDOR_slam_arch.png" /></p></div>
+                    
+                </div>
+
+            <script src="https://utteranc.es/client.js"
+                repo="Owen-Liuyuxuan/papers_reading_sharing.github.io"
+                issue-term="VOLDOR: Visual Odometry from Log-logistic Dense Optical flow Residuals comments"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+            </script>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
